@@ -1,38 +1,54 @@
-html, body{
+html,body{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #F5F4F6;
-}
-
-*{
+    background-color: #024d25;
+  }
+  
+  *{
     box-sizing: border-box;
-}
-
-.passos {
+  }
+  
+  .passos{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
-
-}
-
-.passos > div{
+    z-index:2;
+  }
+  
+  .passos > div{
+    width: 100%;
+    height: 100%;
     position: absolute;
-    display: none;
-}
-
-.passos > div.passo-ativo{
     display: flex;
-}
-
-.gatilhos{
+    display: none;
+    align-items: center;
+  }
+  
+  .passos > div.passo-ativo{
+    display: flex;
+  }
+  
+  .passos > div > *{
+    display: block;
+  }
+  
+  .passos > div > img{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .gatilhos{
     position: absolute;
-}
-.gatilhos > div{
-    border: 1px solid green;
-    height: 200vh;
+  }
+  .gatilhos > div{
+    border:4px solid green;
+    height: 100vh;
     width: 100vw;
-}
+    z-index:100;
+    padding: 10%;
+  }
