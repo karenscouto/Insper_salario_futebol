@@ -46,7 +46,7 @@ html,body{
     position: absolute;
   }
   .gatilhos > div{
-    border:4px solid #024;
+    border:4px solid #024d25;
     height: 100vh;
     width: 100vw;
     z-index:100;
