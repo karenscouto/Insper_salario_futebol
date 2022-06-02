@@ -2,7 +2,6 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #024d25;
   }
   
   *{
@@ -46,7 +45,7 @@ html,body{
     position: absolute;
   }
   .gatilhos > div{
-    border:4px solid #024d25;
+    border:4px solid white;
     height: 100vh;
     width: 100vw;
     z-index:100;
